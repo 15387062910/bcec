@@ -90,7 +90,7 @@ h1,h2 { padding:0px; margin:0px; font-weight:normal;}
 	margin: 0 auto;
 }
 .innav ul li {
-	width: 126px;
+	width: 121px;
 	height: 50px;
 	display: block;
 	float: left;
@@ -1519,13 +1519,14 @@ padding-left:10px;
 
 /*footer*/
 .footer{
-	width: 100%;
-	height: 60px;
-	line-height: 30px;
-	text-align: center;
-	color: #fff;
-	font-size: 14px;
-	background: #0C7124;
+	color: #333;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eeebe3;
+    border-top: 1px solid #e0e0e0;
+    line-height: 2em;
 }
 
 /*简介页*/
@@ -1603,7 +1604,7 @@ padding-left:10px;
 .n_right .comcont{
 	width: 100%;
 	padding: 20px 0;
-min-height:300px;
+	min-height: 600px;
 }
 .n_right .comcont p{
 	font-size: 14px;
