@@ -27,12 +27,18 @@
 <body>
 
 <!--top-->
-<div class="stick"></div>
-<div class="header">
-    <!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+<!-- <div class="stick"></div> -->
+
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<!-- <div class="header">
     <a href="" title="校企工程中心" class="logo" style="background-image: url(static/img/xxx.jpg)"></a>
     <script language="javascript" src="./static/js/base64.js.下载"></script><script language="javascript" src="./static/js/formfunc.js.下载"></script>
-</div>
+</div> -->
+
+
+<div style="height: 18px;"></div>
+
 
 <!-- nav -->
 <div class="nav">
@@ -42,16 +48,13 @@
                 <a class="link cur" href="./index.html">中心首页</a>
             </li>
 
-            <li class="">
+            <li class="mainmenu">
                 <a class="link" href="./introduce.html">中心概述</a>
-            </li>
-
-            <li class="">
-                <a class="link" href="./research/zjtd.html">研究团队</a>
-            </li>
-
-            <li class="">
-                <a class="link" href="./research/achievement.html">研究成果</a>
+                <div id="nav" style="display: none;">
+                    <a href="">中心简介</a> 
+                    <a href="">发展历程</a> 
+                    <a href="">专家团队</a> 
+                </div>
             </li>
 
             <li class="">
@@ -69,12 +72,12 @@
 
             <li class="mainmenu">
                 <a class="link" href="./research/academic.html">学术研究</a>
-                <!-- <div id="nav" style="display: none;">
-                    <a href="">研究方向</a> 
-                    <a href="">科研项目</a> 
-                    <a href="">相关论文</a> 
-                    <a href="">相关会议</a> 
-                </div> -->
+                <div id="nav" style="display: none;">
+                    <a href="">研究动态</a> 
+                    <a href="">研究领域</a> 
+                    <a href="">研究成果</a> 
+                    <a href="">最新论文</a> 
+                </div>
             </li>
 
             <li>
@@ -95,7 +98,8 @@
                     <ul>
                         <li style="width: 100%;height: 417px">
                             <a href="./static/img/ban1.jpg" target="_blank">
-                                <img src="./static/img/ban1.jpg"></a>
+                                <img src="./static/img/ban1.jpg" width="100%">
+                            </a>
                         </li>           
                     </ul>
                 </div>
@@ -113,7 +117,7 @@
 <!-- main部分 -->
 <div class="vsb-box">   
     <div class="vsb-container main" containerid="2" columns="4">
-        <div class="vsb-space oneLeft" columns="3">
+        <div class="vsb-space">
             <h1 class="oneTitle cleafix">
                 <span>&nbsp;区块链资讯</span>
                 <a href="" target="">更多 <font size="+0">&gt;&gt;</font></a>
@@ -138,32 +142,24 @@
                 </ul>
             </div>
         </div>
-        <div class="vsb-space oneRight" columns="1">
+        <div class="vsb-space">
             <h1 class="oneTitle cleafix">
-                <span>通知公告</span>
+                <span>中心简介</span>
                 <a href="">更多 <font>&gt;&gt;</font></a>
             </h1>
-            <ul class="fiver_list">
-                <li><a href="">关于xxx的通知</a></li>
-                <li><a href="">关于xxx的通知</a></li>
-                <li><a href="">关于...</a></li>
-                <li><a href="">关于举办创新创业讲座的通知</a></li>
-
-            </ul>
+            <div class="">
+                <p>
+                     中南民族大学区块链校企联合工程中心，由中南民族大学、武汉鸿扬通信、国鲸数据（武汉）、无锡井通科技共同成立，核心成员有教授2名、副教授4名、讲师6人、工程技术人员5人。
+                </p>
+            </div>
         </div>
     </div>
-    <div class="cleafix"></div>
-    <div class="vsb-container main" containerid="2" columns="4">
-        <div class="vsb-space adv" columns="4">    
-            <a href=""><img src="./static/img/mmmmm.jpg"></a>
-
-        </div>
-    </div>
+    
     <div class="vsb-container main" containerid="2" columns="4">
         <p><br></p><p><br></p>
-        <div class="vsb-space fiveLeft" columns="3">
+        <div class="vsb-space" columns="3">
             <h1 class="oneTitle cleafix">
-                <span>合作发展</span>
+                <span>研究动态</span>
                 <a href="">更多 <font>&gt;&gt;</font></a>
             </h1>
             <ul class="fiver_list">
@@ -176,7 +172,7 @@
         </div>
 
 
-        <div class="vsb-space fiveRight" columns="1">
+        <div class="vsb-space" columns="1">
             <h1 class="oneTitle cleafix">
                 <span>专家团队</span>
                 <a href="">更多 <font>&gt;&gt;</font></a>
