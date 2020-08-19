@@ -1570,7 +1570,7 @@ padding-left:10px;
 	text-decoration: underline;
 }
 .n_right{
-	width: 924px;
+	width: 660px;
 	float: left;
 	margin-top: 16px;
 	padding: 0 10px 0 8px;
@@ -1580,7 +1580,7 @@ padding-left:10px;
 .n_tit{
 	width: 100%;
 	/*border-bottom: 1px solid #00a44e;*/
-	height: 500px;
+	/*height: 500px;*/
 	line-height: 49px;
 	color: #787878;
 	font-size: 14px;
