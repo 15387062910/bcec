@@ -2,3 +2,17 @@
 .titlestyle191625{ color: #856412; font-family: 宋体; font-size: 9pt;}
 .winstyle191625{ border-bottom-style: solid;}
 
+.label_skitter {
+    z-index: 150;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #fff;
+    display: none;
+    opacity: 0.8;
+    background: #000;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+}

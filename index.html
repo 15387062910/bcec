@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0038)  https://kjcgzhzx.hsnc.edu.cn/index.htm -->
+
+<!--  bootstrap轮播: https://blog.csdn.net/qq_41328247/article/details/79669572  -->
+
 <html>
 
 <head>
@@ -11,16 +14,32 @@
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link href="./static/css/public.css" rel="stylesheet">
-    <link href="./static/css/master.css" rel="stylesheet">
 
     <script type="text/javascript" src="./static/js/bdtxk.js.下载"></script>
     <script type="text/javascript" src="./static/js/bdtxk2.js.下载"></script>
     <script type="text/javascript" src="./static/js/index.js.下载"></script>
 
-    <!-- CustomerNO:77656262657232300201465c -->
-    <link rel="stylesheet" type="text/css" href="./static/css/index.css">
     <script type="text/javascript" src="./static/js/counter.js.下载"></script>
+
+
+    <!-- 引入bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <link href="./static/css/public.css" rel="stylesheet">
+    <link href="./static/css/master.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./static/css/index.css">
 
 </head>
 
@@ -79,10 +98,11 @@
 </div>
 
 <!--banner-->
+<!-- 
+
 <div class="vsb-box">
     <div class="vsb-container main a" containerid="1" columns="4">
         <div class="vsb-space" columns="4">        
-            <!--banner1-->
             <div class="slideBox slideBox1"> 
                 <div class="bd">
                     <ul>
@@ -97,6 +117,60 @@
         </div>
     </div>
 </div>
+
+ -->
+
+   
+<div id="demo" class="carousel slide container" data-ride="carousel">
+ 
+  <!-- 指示符 -->
+  <!-- <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul> -->
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="http://static.runoob.com/images/mix/img_fjords_wide.jpg">
+
+        <div class="label_skitter" style="width: 100%; display: block;">
+            <p>备注1</p>
+        </div>
+
+    </div>
+    <div class="carousel-item">
+        <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+        <div class="label_skitter" style="width: 100%; display: block;">
+            <p>备注2</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+        <div class="label_skitter" style="width: 100%; display: block;">
+            <p>备注3</p>
+        </div>
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+
+</div>
+
+                          
+                          
+                          
+                        
+
+
 
 <div class="vsb-container a" containerid="1" columns="4"></div>
 
@@ -145,34 +219,6 @@
             </div>
         </div>
 
-
-        <div class="vsb-space" columns="1">
-            <h1 class="oneTitle cleafix">
-                <span>专家团队</span>
-                <a href="">更多 <font>&gt;&gt;</font></a>
-            </h1>
-            <ul class="fiver_list">
-                <li><a href="">xxx教授</a></li>
-                <li><a href="">xxx教授</a></li>
-                <li><a href="">xxx副教授</a></li>
-                <li><a href="">xxx讲师</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="vsb-container main" containerid="2" columns="4">
-        
-        <!-- <div class="vsb-space">
-            <h1 class="oneTitle cleafix">
-                <span>中心简介</span>
-                <a href="">更多 <font>&gt;&gt;</font></a>
-            </h1>
-            <div class="">
-                <p>
-                     中南民族大学区块链校企联合工程中心，由中南民族大学、武汉鸿扬通信、国鲸数据（武汉）、无锡井通科技共同成立，核心成员有教授2名、副教授4名、讲师6人、工程技术人员5人。
-                </p>
-            </div>
-        </div> -->
     </div>
     
 
