@@ -281,7 +281,8 @@ h1,h2 { padding:0px; margin:0px; font-weight:normal;}
 .main {
 	width: 80%;
 	margin: 0 auto;
-	height: auto;
+	/*height: auto;*/
+	min-height: 450px;
 	overflow: hidden;
 }
 .oneLeft, .fourLeft, .fiveLeft, .sixLeft, .sevenLeft {
@@ -1574,14 +1575,13 @@ padding-left:10px;
 	float: left;
 	margin-top: 16px;
 	padding: 0 10px 0 8px;
-	_padding: 0 10px 0 8px;
 	margin-bottom: 20px;
 }
 .n_tit{
 	width: 100%;
 	/*border-bottom: 1px solid #00a44e;*/
 	/*height: 500px;*/
-	line-height: 49px;
+	line-height: 37px;
 	color: #787878;
 	font-size: 14px;
 }
